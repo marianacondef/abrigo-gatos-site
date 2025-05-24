@@ -74,26 +74,40 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Abrigo de Gatos',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
-        items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
-        ],
+       items: [
+        { to: '/', label: 'Início', position: 'left' },
+        { to: '/adocao', label: 'Adoção', position: 'left' },
+        { to: '/apadrinhamento', label: 'Apadrinhamento', position: 'left' },
+        { to: '/voluntariado', label: 'Voluntariado', position: 'left' },
+        { to: '/doacoes', label: 'Doações', position: 'left' },
+        {
+          href: 'https://github.com/marianacondef/abrigo-gatos-site',
+          label: 'GitHub',
+          position: 'right',
+        },
+      ],
       },
+      stylesheets: [
+      {
+        href: '/css/custom.css',
+        type: 'text/css',
+      },
+    ],
+    presets: [
+      [
+        'classic',
+        {
+          theme: {
+            customCss: require.resolve('./src/css/custom.css'),
+          },
+        },
+      ],
+    ],
       footer: {
         style: 'dark',
         links: [
