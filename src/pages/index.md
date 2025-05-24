@@ -9,7 +9,6 @@ Somos um abrigo dedicado a dar amor, cuidados e um novo lar para gatos resgatado
 - [Seja voluntário](./voluntariado)
 - [Faça uma doação](./doacoes)
 
-![Gatinho Jorge](/img/jorge.jpg)
 ![Gatinho Kevin](/img/kevin.jpg)
 
 ## Sobre o Abrigo
