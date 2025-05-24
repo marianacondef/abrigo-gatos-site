@@ -81,20 +81,18 @@ const config = {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
-        items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
-        ],
+       items: [
+        { to: '/', label: 'Início', position: 'left' },
+        { to: '/adocao', label: 'Adoção', position: 'left' },
+        { to: '/apadrinhamento', label: 'Apadrinhamento', position: 'left' },
+        { to: '/voluntariado', label: 'Voluntariado', position: 'left' },
+        { to: '/doacoes', label: 'Doações', position: 'left' },
+        {
+          href: 'https://github.com/marianacondef/abrigo-gatos-site',
+          label: 'GitHub',
+          position: 'right',
+        },
+      ],
       },
       footer: {
         style: 'dark',
