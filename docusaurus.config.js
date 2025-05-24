@@ -76,10 +76,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Abrigo de Gatos',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
        items: [
         { to: '/', label: 'Início', position: 'left' },
@@ -94,6 +94,22 @@ const config = {
         },
       ],
       },
+      stylesheets: [
+      {
+        href: '/css/custom.css',
+        type: 'text/css',
+      },
+    ],
+    presets: [
+      [
+        'classic',
+        {
+          theme: {
+            customCss: require.resolve('./src/css/custom.css'),
+          },
+        },
+      ],
+    ],
       footer: {
         style: 'dark',
         links: [
