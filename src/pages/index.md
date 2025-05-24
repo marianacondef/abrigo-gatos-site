@@ -1,31 +1,48 @@
+import React from 'react';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # Bem-vindo ao Abrigo de Gatos 😺
 
-## Quem Somos
-Somos um abrigo dedicado a dar amor, cuidados e um novo lar para gatos resgatados.
+Somos um abrigo dedicado a dar amor, cuidados e um novo lar para gatos resgatados. Trabalhamos com adoção responsável, apadrinhamento, voluntariado e recebemos doações para manter nossos peludos felizes!
 
 ## Como ajudar?
+
 - [Adote](./adocao)
-- [Apadrinhe um gato](./apadrinhamento)
+- [Apadrinhe um gatinho](./apadrinhamento)
 - [Seja voluntário](./voluntariado)
 - [Faça uma doação](./doacoes)
 
+---
+
 ## Conheça nossos gatinhos
 
-<div style={{ display: "flex", gap: "2rem", flexWrap: "wrap", justifyContent: "center" }}>
+<div style={{
+  display: 'flex',
+  flexWrap: 'wrap',
+  gap: '2rem',
+  justifyContent: 'center',
+  marginTop: '1rem'
+}}>
 
-<div>
-  <img src="/img/kevin.jpg" alt="Gatinho 1" className="cat-image" />
-  <p className="cat-name">Kevin - 2 anos</p>
+  <div>
+    <img src={useBaseUrl('/img/kevin.jpg')} alt="Gatinho 1" className="cat-image" />
+    <p className="cat-name">Kevin</p>
+  </div>
+
+  <div>
+    <img src={useBaseUrl('/img/jorge.jpg')} alt="Gatinho 2" className="cat-image" />
+    <p className="cat-name">Jorge</p>
+  </div>
+
+  <div>
+    <img src={useBaseUrl('/img/pedro.jpg')} alt="Gatinho 3" className="cat-image" />
+    <p className="cat-name">Pedro</p>
+  </div>
+
 </div>
 
-<div>
-  <img src="/img/jorge.jpg" alt="Gatinho 2" className="cat-image" />
-  <p className="cat-name">Jorge - 1 ano</p>
-</div>
-
-
-</div>
-
+---
 
 ## Sobre o Abrigo
-O Abrigo de Gatos acolhe gatos abandonados, cuida da sua saúde e os prepara para adoção responsável. Todos os gatos recebem amor, vacinas e muito carinho!
+
+O **Abrigo de Gatos** acolhe gatos em situação de abandono e vulnerabilidade. Todos os animais recebem cuidados veterinários, alimentação adequada, carinho e são preparados para adoção responsável. Acreditamos que cada gatinho merece uma chance! 💜
