@@ -71,8 +71,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/logo.png',
       navbar: {
         title: 'Abrigo de Gatos',
         logo: {
@@ -117,10 +116,12 @@ const config = {
               {
                 label: 'Instagram',
                 href: 'https://www.instagram.com/cabanameianoite/',
+                className: 'footer-link-instagram',
               },
               {
                 label: 'Facebook',
                 href: 'https://www.facebook.com/p/Gatos-e-gatinhos-da-Cabana-da-Meia-Noite-100075701787945/?locale=pt_PT',
+                className: 'footer-link-facebook',
               },
             ],
           },
