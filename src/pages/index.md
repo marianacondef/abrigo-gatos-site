@@ -1,7 +1,7 @@
 import React from 'react';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Bem-vindo ao Abrigo de Gatos 😺
+# Bem-vindo ao Abrigo de Gatos!
 
 Somos um abrigo dedicado a dar amor, cuidados e um novo lar para gatos resgatados. Trabalhamos com adoção responsável, apadrinhamento, voluntariado e recebemos doações para manter nossos peludos felizes!
 
@@ -25,17 +25,17 @@ Somos um abrigo dedicado a dar amor, cuidados e um novo lar para gatos resgatado
 }}>
 
   <div>
-    <img src={useBaseUrl('/img/kevin.jpg')} alt="Gatinho 1" className="cat-image" />
+    <img src={useBaseUrl('/img/kevin.jpg')} alt="Kevin" className="cat-image" />
     <p className="cat-name">Kevin</p>
   </div>
 
   <div>
-    <img src={useBaseUrl('/img/jorge.jpg')} alt="Gatinho 2" className="cat-image" />
+    <img src={useBaseUrl('/img/jorge.jpg')} alt="Jorge" className="cat-image" />
     <p className="cat-name">Jorge</p>
   </div>
 
   <div>
-    <img src={useBaseUrl('/img/pedro.jpg')} alt="Gatinho 3" className="cat-image" />
+    <img src={useBaseUrl('/img/pedro.jpg')} alt="Pedro" className="cat-image" />
     <p className="cat-name">Pedro</p>
   </div>
 
