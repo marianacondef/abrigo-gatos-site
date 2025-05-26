@@ -19,9 +19,55 @@ img.cat-image {
   margin: 0 auto;
 }
 
+img.cat-image:hover {
+    transform: scale(1.07) rotate(-2deg);
+    transition: transform 0.3s ease;
+    z-index: 10;
+}
+
 .cat-name {
   text-align: center;
   font-weight: bold;
   margin-top: 0.5rem;
   color: #6a1b9a;
+}
+
+.footer {
+  background-color: #865bb0;
+  color: black;
+  padding: 20px;
+}
+
+.footer .footer__title {
+  color: black;
+}
+
+.footer a {
+  color: black;
+}
+
+.footer a:hover {
+  color: #caa5e4;
+}
+
+.footer-link-instagram::before {
+  content: '';
+  display: inline-block;
+  background-image: url('/img/instagram-ico.svg');
+  background-size: contain;
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.footer-link-facebook::before {
+  content: '';
+  display: inline-block;
+  background-image: url('/img/facebook-ico.svg');
+  background-size: contain;
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  vertical-align: middle;
 }

@@ -71,8 +71,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/logo.png',
       navbar: {
         title: 'Abrigo de Gatos',
         logo: {
@@ -112,46 +111,40 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Redes Sociais',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Instagram',
+                href: 'https://www.instagram.com/cabanameianoite/',
+                className: 'footer-link-instagram',
+              },
+              {
+                label: 'Facebook',
+                href: 'https://www.facebook.com/p/Gatos-e-gatinhos-da-Cabana-da-Meia-Noite-100075701787945/?locale=pt_PT',
+                className: 'footer-link-facebook',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Contacto',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: 'Nosso Email',
+                href: 'mailto: cabanameianoite@gmail.com',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Mais',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/marianacondef/abrigo-gatos-site',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Abrigo de Gatos. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
