@@ -19,6 +19,12 @@ img.cat-image {
   margin: 0 auto;
 }
 
+img.cat-image:hover {
+    transform: scale(1.07) rotate(-2deg);
+    transition: transform 0.3s ease;
+    z-index: 10;
+}
+
 .cat-name {
   text-align: center;
   font-weight: bold;
