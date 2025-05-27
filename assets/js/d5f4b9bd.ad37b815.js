@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkabrigo_gatos=self.webpackChunkabrigo_gatos||[]).push([[5161],{9557:a=>{a.exports=JSON.parse('{"metadata":{"permalink":"/abrigo-gatos-site/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

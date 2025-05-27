@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkabrigo_gatos=self.webpackChunkabrigo_gatos||[]).push([[1903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/abrigo-gatos-site/blog","blogTitle":"Blog","authorsListPath":"/abrigo-gatos-site/blog/authors"}')}}]);
