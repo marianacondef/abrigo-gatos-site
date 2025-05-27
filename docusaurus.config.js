@@ -124,7 +124,11 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Abrigo de Gatos. Built with Docusaurus.`,
+        
+        copyright: `Copyright © ${new Date().getFullYear()} Abrigo de Gatos. Built with Docusaurus.
+<br />As informações de contacto são de um abrigo real, mas o site é relacionado a um abrigo fictício para desenvolvimento do trabalho.`,
+
+
       },
       prism: {
         theme: prismThemes.github,
