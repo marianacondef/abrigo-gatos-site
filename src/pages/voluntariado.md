@@ -41,9 +41,9 @@ Cada hora que você doa, muda uma vidinha. 🐾
 
 ## 📞 Contato
 
-**Email:** abrigo@gatosfelizes.pt  
-**Instagram:** [@abrigogatosfelizes](https://instagram.com/abrigogatosfelizes)  
-**Endereço:** Rua dos Felinos, nº 123, Faro - Portugal
+- **Email:** cabanameianoite@gmail.com
+- **Instagram:** [@abrigogatosfelizes](https://www.instagram.com/cabanameianoite/)  
+- **Endereço:** Rua dos Felinos, nº 123, Faro - Portugal
 
 ---
 
